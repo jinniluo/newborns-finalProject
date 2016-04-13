@@ -1,99 +1,122 @@
-html,body,div,ul,li,svg{
-	margin:0;
-	padding:0;
-	list-style:none;
+body
+{
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    color: hsla(0, 10%, 10%, 1.0);
+    margin: 2em;
+    height:1500px;
 }
 
-/*------------Global-------------*/
-html,body{
-	height: 100%;
-	position: relative;
-	background: rgb(242,244,233);
+.container
+{
+    width:80%;
+    margin-left: 10%;
+    height:650px;
+
 }
 
-.container{
-    height:100%;
+#scene-1{background:darkseagreen;}
+
+#scene-2{background:blue;}
+
+#scene-3{background:yellow;}
+
+h1
+{
+    text-align: center;
+    margin-top: 300px;
 }
-.container .section{
-	width:100%;
+
+#text,
+#canvas
+{
+    margin-top: 150px;
+    width:49%;
+    height:400px;
+    float: left;
+    /*border-style: dotted;*/
+    /*color:black;*/
 }
-.canvas{
-	width:100%;
-	background:white;
-	height:100%;
+h3{
+    text-align: left;
+    font-weight: 200;
+    margin-top: 120px;
+    line-height: 200%;
 }
-.container .canvas2{
-    width:100%;
-    background:white;
+
+
+
+/*set up the plot on the right*/
+#canvas{
+    float:right;
+    margin-top: 10%;
+    /*border-style: dotted;*/
+    /*color:black;*/
+}
+
+
+.plot
+{
+    width:48%;
+    height:80%;
+    float: left;
+    /*border-style: dotted;*/
+    /*color:black;*/
+}
+/*.percentage{*/
+    /*width:50%;*/
+    /*background-color: #31708f;*/
+/*}*/
+.label
+{
+
+    float:left;
+    width:48%;
+    margin-bottom: 20%;
+    height:20%;
+    /*border-style: dotted;*/
+    /*color:black;*/
+}
+
+h4{
+    margin-left:54%;
+}
+
+
+
+
+.active1{
+    position:fixed;
+    /*background-color: antiquewhite;*/
+    /*height:100px;*/
+    top:0;
+    left:0;
+    z-index:9999;
+}
+#vis1{
+    width:80%;
+    margin-left: 10%;
     height:200px;
-}
-.container .controls{
-	margin-bottom:20px;
-}
-
-/*------------font-------------*/
-body{
-	font-size: 10px;
-}
-h1{ font-size:2em;}
-h2{ font-size:1.3em;}
-p{
-	font-family:"Droid Serif", serif;
+    /*position:relative*/
+    z-index:9999;
+    top:0;
+    left:0;
 }
 
-/*------------svg--------------*/
-.axis .domain{
-    fill:none
+.active2{
+    position:fixed;
+    /*background-color: antiquewhite;*/
+    /*height:100px;*/
+    top:1000px;
+    left:0;
+    z-index:9999;
 }
-.axis .tick line{
-    fill:none;
-    stroke:rgb(200,200,200);
-    stroke-width:1px;
-}
-.axis .tick text{
-    fill:rgb(80,80,80)
-}
-
-.data-point{
-    fill:white;
-    stroke-width:2px;
-}
-    .coffee-data-point{ stroke:red; }
-    .tea-data-point{ stroke:rgb(0,200,255); }
-.data-line{
-    fill:none;
-    stroke-width:2px;
-}
-    .coffee-data-line{ stroke:red; }
-    .tea-data-line{ stroke:rgb(0,200,255); }
-.data-area{
-    fill-opacity:.05;
-}
-    .coffee-data-area{ fill:red; }
-    .tea-data-area{ fill:rgb(0,200,255); }
-
-    .brush .extent {
-         stroke: #fff;
-         fill-opacity: .125;
-         shape-rendering: crispEdges;
-     }
-/*-----------tooltip-----------*/
-.canvas .custom-tooltip, .canvas .custom-tooltip2 {
-    position:absolute;
-    border:1px solid #fff;
-    width:150px;
-    min-height:10px;
-    padding:10px 12px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 -3px 7px rgba(0, 0, 0, 0.1);
-    font-family: "MaisonNeue",sans-serif;
-    font-size:12px;
-    fill: #666666 !important;
-    opacity: 0;
-}
-.dataDescription {
-    font-weight: normal
-}.dataValue {
-    font-weight: bold
+#vis2{
+    width:80%;
+    margin-left: 10%;
+    height:200px;
+    /*position:relative*/
+    z-index:9999;
+    top:0;
+    left:0;
 }

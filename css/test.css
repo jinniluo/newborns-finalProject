@@ -1,0 +1,161 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    color: hsla(0, 10%, 10%, 1.0);
+    margin: 2em;
+    /*height:1500px;*/
+}
+
+.canvas
+{
+    height:600px;
+}
+
+#plot2
+{   float: left;
+    /*margin-left: 60%;*/
+    padding-top: 10%;
+    width:35%;
+    height:50%;
+}
+#text2
+{   float: left;
+    /*padding-left: 5%;*/
+    /*padding-top: 22%;*/
+    width:60%;
+    height:50%;
+}
+h2{
+    width:80%;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+
+
+#plot3
+{   float: left;
+    /*margin-left: 60%;*/
+    padding-top: 10%;
+    width:35%;
+    height:50%;
+}
+#text3
+{   float: left;
+    /*padding-left: 5%;*/
+    /*padding-top: 22%;*/
+    width:60%;
+    height:50%;
+}
+h3{
+    width:80%;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+
+#plot4
+{   float: left;
+    /*margin-left: 60%;*/
+    padding-top: 10%;
+    width:35%;
+    height:50%;
+}
+#text4
+{   float: left;
+    /*padding-left: 5%;*/
+    /*padding-top: 22%;*/
+    width:60%;
+    height:50%;
+}
+h4{
+    width:80%;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+#plot5
+{   float: left;
+    /*margin-left: 60%;*/
+    padding-top: 10%;
+    width:35%;
+    height:50%;
+}
+#text5
+{   float: left;
+    /*padding-left: 5%;*/
+    /*padding-top: 22%;*/
+    width:60%;
+    height:50%;
+}
+h5{
+    width:80%;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+#plot6
+{   float: left;
+    /*margin-left: 60%;*/
+    padding-top: 10%;
+    width:35%;
+    height:50%;
+}
+#text6
+{   float: left;
+    /*padding-left: 5%;*/
+    /*padding-top: 22%;*/
+    width:60%;
+    height:50%;
+}
+h6{
+    width:80%;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+
+#plot7
+{   float: left;
+    /*margin-left: 60%;*/
+    padding-top: 10%;
+    width:35%;
+    height:50%;
+}
+#text7
+{   float: left;
+    /*padding-left: 5%;*/
+    /*padding-top: 22%;*/
+    width:60%;
+    height:50%;
+}
+h7
+{
+    width:80%;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+
+
+#scene-1{background-color: #818a91;}
+/*#scene-2{background-color: #a3d7a3;}*/
+#scene-3{background-color: beige;}
+#scene-4{}
+#scene-5{background-color: #d9edf7;}
+#scene-6{}
+#scene-7{background-color: tan;}
+#scene-8{}
+
+
+/*#plot*/
+/*{*/
+    /*width:20%;*/
+/*}*/
